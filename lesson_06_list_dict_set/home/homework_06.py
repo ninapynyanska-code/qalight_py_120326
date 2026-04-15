@@ -32,10 +32,10 @@ sum_dict = base_dict.copy()
 
 for key, value in add_dict.items():
     if key in sum_dict:
-               sum_dict[key] = str(sum_dict[key]) + str(value)
+        sum_dict[key] = str(sum_dict[key]) + str(value)
     else:
     
-            sum_dict[key] = value
+        sum_dict[key] = value
 
 print("оновлений словник:", sum_dict)
 
