@@ -9,6 +9,7 @@ from functions_for_test import *
 Напиши тест на функцію add(a, b), яка повертає суму двох чисел. 
 Створи тест, який перевіряє кілька випадків: додавання додатних, від’ємних і нуля.
 """
+import pytest
 def test_add():
     # TODO: додай тести для функції add
     assert add(2, 3) == 5
@@ -80,7 +81,7 @@ def test_factorial():
 Функція divide(a, b) ділить a на b. 
 Перевір: звичайне ділення, ділення на від’ємне число, ділення на нуль (очікуваний ZeroDivisionError).
 """
-import pytest
+
 def test_divide():
     # TODO: додай тести для функції divide
     assert divide(6, 3) == 2
