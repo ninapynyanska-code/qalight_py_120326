@@ -26,7 +26,7 @@ def sum_numbers_in_list(string_list: list):
     for item in string_list:
         try:
             if not isinstance(item, str):
-                raise AttributeError
+                raise AttributeError ("Не можу це зробити!")
             numbers = [int(num.strip()) for num in item.split(",")]
             result.append(sum(numbers))
         except AttributeError:
